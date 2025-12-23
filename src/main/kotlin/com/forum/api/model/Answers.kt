@@ -7,7 +7,7 @@ data class Answers(
     val message: String,
     val creationDate: String,
     val course: Course,
-    val author: Author,
+    val author: User,
     val status: StatusTopic = StatusTopic.NOT_ANSWERED,
     val answers: List<Answers> = ArrayList(),
 )
