@@ -2,7 +2,6 @@ package com.forum.api.model
 
 import com.forum.api.model.enums.StatusTopic
 import jakarta.persistence.Entity
-import jakarta.persistence.FetchType
 import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
